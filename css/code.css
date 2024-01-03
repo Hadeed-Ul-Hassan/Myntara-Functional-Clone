@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {}
+
+body {}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.form {
+  margin: 10px 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  border: 1px solid #222;
+
+}
+
+.form button {
+  width: 100%;
+  padding: 1rem 5.4rem;
+  border: none;
+  outline: none;
+  border: 1px solid #222;
+  background-color: #333;
+  color: #eee;
+  border-radius: 3px;
+}
+
+.other-ways {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
